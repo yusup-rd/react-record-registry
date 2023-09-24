@@ -1,6 +1,6 @@
 {
+  "homepage": "https://yusup-rd.github.io/",
   "name": "recordregistry",
-  "homepage": "https://yusup-rd.github.io/react-record-registry",
   "private": true,
   "version": "0.0.0",
   "type": "module",
