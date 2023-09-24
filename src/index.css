@@ -1,0 +1,115 @@
+/* Default styles for dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #454545;
+        --text-color: white;
+        --button-background: var(--background-color-dark);
+    }
+
+    button {
+        background-color: white;
+    }
+    .form-check-label {
+        color: var(--text-color);
+    }
+}
+
+/* Styles for light mode */
+@media (prefers-color-scheme: light) {
+    th,
+    td,
+    .form-check-input,
+    .custom-select__dropdown-indicator,
+    .switch-text {
+        color: var(--text-color-light);
+    }
+
+    a:hover {
+        color: var(--link-color);
+    }
+
+    button {
+        background-color: var(--button-background);
+    }
+    label .form-check-label {
+        color: var(--text-color-dark);
+    }
+}
+
+/* Common styles for both modes */
+:root {
+    --background-color: #454545;
+    --color: white;
+}
+body {
+    background-color: var(--background-color);
+}
+
+.flaoting-label {
+    z-index: 1;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    left: 60px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.1rem green;
+}
+
+.custom-color {
+    background-color: gray;
+    color: white;
+}
+
+button:hover,
+.button:focus {
+    color: white;
+}
+
+/* Removed button:active style */
+
+.custom-select__dropdown-indicator:hover svg {
+    color: white;
+}
+
+.form-check-input:checked {
+    background-color: green;
+    border: 0;
+}
+
+/* Updated .form-check-input:focus rule */
+.form-check-input:focus,
+.form-check-label:focus {
+    color: black;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0 0 0.1rem green;
+}
+
+hr {
+    color: #9d9d9d;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1pt solid #e5e5e5;
+}
+
+.selected {
+    background-color: green;
+}
