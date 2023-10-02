@@ -1,8 +1,11 @@
-# React + Vite
+# Record Registry on React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This is simple Record Registry application.
 
-Currently, two official plugins are available:
+### Basic functions
+1. Adding a list
+2. Delete a list
+3. Switching modes (light/dark)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To store the database, used a JS array, the database itself
+store in LocalStorage
