@@ -1,27 +1,87 @@
-# Record Registry on React
+# Record Registry React.js
 
-> This is simple Record Registry application.
+This is a mini project that demonstrates a simple React application for managing user data. The application allows users to input and store data, switch between dark and light modes, and delete previously entered data.
 
-### Basic functions
-1. Adding a list
-2. Delete a list
-3. Switching modes (light/dark)
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [License](#license)
+- [Demo](#demo)
 
-To store the database, used a JS array, the database itself
-store in LocalStorage
+## Project Overview
 
-### Link
-https://record-registry.netlify.app/
+This React application is designed to manage user data through a simple user interface. The primary functionality of the application includes:
 
-### Screenshots
-> Basic view:
-![1](https://github.com/yusup-rd/react-record-registry/assets/71926209/cc1ef3c6-b9ae-467a-b7cb-9a19ce1cbee8)
+- **Input Form**: Users can input their name, age, subscription status, and employment status through a user-friendly form.
 
-> Added data:
-![2](https://github.com/yusup-rd/react-record-registry/assets/71926209/a372ddda-6361-45bd-88ba-22a7e262bcc3)
+- **Data Storage**: The entered data is stored in local storage, allowing the application to retain the data even after the user refreshes or closes the application.
 
-> Light mode: 
-![3](https://github.com/yusup-rd/react-record-registry/assets/71926209/396286fe-99dc-4f42-88bf-73c3c90fd208)
+- **Dark Mode**: Users can toggle between dark and light modes for the application interface, providing a customized user experience.
 
-> Deleted data: 
-![4](https://github.com/yusup-rd/react-record-registry/assets/71926209/6ef694f6-a485-4e04-bc09-4f4b71c04ac6)
+- **Data Display**: The entered data is displayed in a table format, allowing users to view and select individual entries.
+
+- **Deletion**: Users can delete previously entered data entries.
+
+## Features
+
+- **Input Form**: Users can input their name, age, subscription status, and employment status. The form includes various input elements such as text fields, a numeric input for age, a dropdown for subscription status, and a checkbox for employment status.
+
+- **Data Display**: The entered data is displayed in a table with columns for name, age, subscription, and employment status. Users can click on a row to select and highlight it.
+
+- **Data Storage**: The application uses local storage to persist the entered data even after the user closes or refreshes the application.
+
+- **Dark Mode**: Users can toggle between dark and light modes for the application interface. The dark mode provides a visually appealing and comfortable viewing experience in low-light conditions.
+
+- **Deletion**: Users can delete selected data entries using the "Delete" button.
+
+## Usage
+### Input Form:
+
+1. Enter your name, age, select your subscription status, and check your employment status.
+2. Click the "Insert" button to add your data to the table.
+
+### Dark Mode:
+
+- Toggle between dark and light modes using the "Mode" switch.
+
+### Data Display:
+
+- View your entered data in a table format.
+- Click on a row to select and highlight it.
+
+### Deletion:
+
+- Select a row by clicking on it.
+- Click the "Delete" button to remove the selected row from the table.
+
+## File Structure
+The project directory structure is organized as follows:
+
+- **`App.jsx`**: The main application component that manages the state and functionality of the application.
+
+- **`AgeInput.jsx`**: A component responsible for handling age input with increment and decrement buttons.
+
+- **`CheckEmploy.jsx`**: A component that manages the checkbox for employment status.
+
+- **`DropdownSelect.jsx`**: A component that provides a dropdown selection for subscription status.
+
+- **`FormView.jsx`**: The component responsible for rendering the input form and related components.
+
+- **`NameInput.jsx`**: A component for entering the user's name.
+
+- **`ResultView.jsx`**: The component responsible for displaying the data table.
+
+- **`SwitchMode.jsx`**: A component that provides the dark mode toggle switch.
+
+- **`index.css`**: The CSS file for styling the application.
+
+- **`index.js`**: The entry point of the React application.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Demo
+You can view a live demo of this project [here](https://record-registry.netlify.app/).
+![Screenshot](https://github.com/yusup-rd/react-record-registry/assets/71926209/b9b813f1-242c-4089-9de3-c247757d3640)
