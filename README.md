@@ -7,7 +7,6 @@ This is a mini project that demonstrates a simple React application for managing
 - [Features](#features)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [License](#license)
 - [Demo](#demo)
 
 ## Project Overview
@@ -78,9 +77,6 @@ The project directory structure is organized as follows:
 - **`index.css`**: The CSS file for styling the application.
 
 - **`index.js`**: The entry point of the React application.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Demo
 You can view a live demo of this project [here](https://record-registry.netlify.app/).
